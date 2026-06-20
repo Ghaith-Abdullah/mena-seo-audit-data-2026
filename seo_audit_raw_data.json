@@ -1,0 +1,150 @@
+{
+  "audit_metadata": {
+    "target_region": "Middle East / MENA / GCC",
+    "total_entities_analyzed": 28,
+    "pass_rate_percentage": 0,
+    "methodology": "Deep Lighthouse & DOM analysis conducted on the highest-visibility tier. Baseline availability, technical health, and Agentic Readiness checks applied to the remaining ranked entities."
+  },
+  "deep_audit_tier": [
+    {
+      "name": "SEO Sherpa",
+      "mobile_performance_score": 50,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "3.5 MB",
+      "critical_issues": ["Render-blocking resources", "Unminified JS"]
+    },
+    {
+      "name": "Chain Reaction",
+      "mobile_performance_score": 70,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "Failed Check",
+      "critical_issues": ["11 HubSpot injections", "38 inline styles breaking render pathways"]
+    },
+    {
+      "name": "Fatcow Digital",
+      "mobile_performance_score": 45,
+      "agentic_browsing_score": "2/3",
+      "total_network_payload": "Failed Check",
+      "critical_issues": ["1,006 Elementor classes", "14 separate widget injections", "LCP 12.9s"]
+    },
+    {
+      "name": "Acquisit",
+      "mobile_performance_score": 46,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "Failed Check",
+      "critical_issues": ["HubSpot bloat", "LCP 18.6s"]
+    },
+    {
+      "name": "Blue Beetle",
+      "mobile_performance_score": 67,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "50.4 MB",
+      "critical_issues": ["50.4 MB Payload", "14 HubSpot tracker injections", "25 duplicate element IDs"]
+    },
+    {
+      "name": "United SEO",
+      "mobile_performance_score": 32,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "Failed Check",
+      "critical_issues": ["LCP 24.9s", "19 duplicate IDs", "31 script tags"]
+    },
+    {
+      "name": "Microbits",
+      "mobile_performance_score": 49,
+      "agentic_browsing_score": "1/3",
+      "total_network_payload": "8.1 MB",
+      "critical_issues": ["Unescaped backslash in nav", "0.207 CLS", "61 non-composited animations", "11 WhatsApp trackers"]
+    }
+  ],
+  "baseline_health_tier": [
+    {
+      "name": "iCreativez",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Voctos",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "AL Master Company",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Digital Media Sapiens",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Bruce Clay MENA",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Crawl Brains",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "BeOnTop",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Znwebpro",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Mentegoz Technologies",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "Clouds Media",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    },
+    {
+      "name": "SEO Kuwait",
+      "baseline_status": "Failed Technical Baseline",
+      "agentic_browsing_score": "Failed / Missing Semantic Structure"
+    }
+  ],
+  "individuals_tier": [
+    {
+      "name": "Shahid Maqbool",
+      "baseline_status": "Failed Technical Baseline"
+    },
+    {
+      "name": "Sheikh Mohammad Bilal (Just White Hat)",
+      "baseline_status": "Critical Failure: Website Offline / 404 Error"
+    },
+    {
+      "name": "Shameela Najeeb",
+      "baseline_status": "Failed Technical Baseline"
+    },
+    {
+      "name": "Mohamed Soufan",
+      "baseline_status": "Critical Failure: No Domain. Ranks via Parasite SEO."
+    },
+    {
+      "name": "Walid Gabteni",
+      "baseline_status": "Critical Failure: No Domain. Ranks via Parasite SEO."
+    },
+    {
+      "name": "Naguib Toihiri",
+      "baseline_status": "Critical Failure: No Domain. Ranks via Parasite SEO."
+    },
+    {
+      "name": "Ali Raza",
+      "baseline_status": "Failed Technical Baseline"
+    },
+    {
+      "name": "Amlan Maiti",
+      "baseline_status": "Critical Failure: Directory/Upwork Profile Only."
+    }
+  ]
+}
